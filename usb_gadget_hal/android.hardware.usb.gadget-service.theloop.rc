@@ -1,0 +1,3 @@
+# This file intentionally left empty.
+# Service definition is in the modified vendor init.rc:
+# /vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc

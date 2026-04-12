@@ -1,0 +1,11 @@
+on boot
+    chown root system /sys/class/udc/${sys.usb.controller}/current_speed
+    chown root system /sys/class/udc/${sys.usb.controller}/soft_connect
+    chmod 444 /sys/class/udc/${sys.usb.controller}/current_speed
+    chmod 220 /sys/class/udc/${sys.usb.controller}/soft_connect
+
+service vendor.usb_gadget_default /vendor/bin/hw/android.hardware.usb.gadget-service.theloop
+    class hal
+    user system
+    group system mtp shell
+    interface aidl android.hardware.usb.gadget.IUsbGadget/default

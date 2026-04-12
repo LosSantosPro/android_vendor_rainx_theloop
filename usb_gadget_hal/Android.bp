@@ -1,0 +1,32 @@
+// AOSP V1 USB gadget HAL stub for theloop (mt6877).
+//
+// Stock vendor binary crashes in UsbGadget() constructor.
+// This replaces it so UsbService.onBootPhase can proceed.
+//
+// Based on hardware/interfaces/usb/gadget/aidl/default/ (Apache 2.0).
+
+cc_binary {
+    name: "android.hardware.usb.gadget-service.theloop",
+    relative_install_path: "hw",
+    vendor: true,
+    srcs: [
+        "main.cpp",
+        "UsbGadget.cpp",
+    ],
+    init_rc: ["android.hardware.usb.gadget-service.theloop.rc"],
+    vintf_fragments: [
+        "android.hardware.usb.gadget-service.theloop.xml",
+    ],
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "liblog",
+        "libutils",
+        "android.hardware.usb.gadget-V1-ndk",
+    ],
+}

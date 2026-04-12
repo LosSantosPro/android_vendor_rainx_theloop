@@ -1,0 +1,13 @@
+<!--
+    Input:
+        vendor/mediatek/proprietary/hardware/thermal/aidl/default/thermal-mediatek.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.thermal</name>
+        <!-- Stock blob is v2; bumped to v3 for A16 FCM compat.
+             AIDL negotiates down at runtime via getInterfaceVersion(). -->
+        <version>3</version>
+        <fqname>IThermal/default</fqname>
+    </hal>
+</manifest>
