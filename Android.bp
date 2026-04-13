@@ -24067,9 +24067,8 @@ cc_prebuilt_library_shared {
 	compile_multilib: "64",
 	// AOSP source libfmjni has better signal on internal antenna but
 	// broken RDS (no radio text). MTK prebuilt has working RDS but
-	// weaker reception. Using AOSP (prefer:false) for usable FM on
-	// a speaker with no external antenna.
-	prefer: false,
+	// weaker reception. Using prebuilt for RDS support.
+	prefer: true,
 	check_elf_files: false,
 	// Cannot be system_ext_specific - Soong rejects prefer:true when
 	// prebuilt partition differs from source module (libfmjni is /system).
