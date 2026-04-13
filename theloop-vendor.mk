@@ -2474,6 +2474,7 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    android.hardware.wifi.hostapd.xml.vendor_rainx \
     CommandService.xml \
     gnss-mtk.xml \
     lights-mtk-default.xml \
