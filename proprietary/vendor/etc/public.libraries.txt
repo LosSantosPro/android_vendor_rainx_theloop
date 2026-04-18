@@ -1,4 +1,8 @@
+libDualCamBokehCapture.camera.samsung.so
 libOpenCL.so
-libnir_neon_driver_ndk.mtk.vndk.so
-libcmdl_ndk.mtk.vndk.so
+libOpenCv.camera.samsung.so
 libarmnn_ndk.mtk.vndk.so
+libcmdl_ndk.mtk.vndk.so
+libnir_neon_driver_ndk.mtk.vndk.so
+liboemcrypto.so
+libteecl.so

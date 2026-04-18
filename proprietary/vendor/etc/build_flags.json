@@ -115,7 +115,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "adbd.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -137,7 +139,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "adservices.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -159,7 +163,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "appsearch.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -181,7 +187,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "art.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -225,7 +233,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "captiveportallogin.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -247,7 +257,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "cellbroadcast.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -269,7 +281,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "configinfrastructure.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -291,7 +305,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "connectivity.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -313,7 +329,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "conscrypt.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -379,7 +397,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "documentsui.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -401,7 +421,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "extservices.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -423,7 +445,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "healthfitness.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -445,7 +469,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "ipsec.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -467,7 +493,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "media.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -489,7 +517,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "mediaprovider.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -511,7 +541,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "modulemetadata.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -533,7 +565,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "networkstack.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -555,7 +589,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "neuralnetworks.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -577,7 +613,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "ondevicepersonalization.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -599,7 +637,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "permission.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -643,7 +683,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "resolv.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -665,7 +707,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "scheduling.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -687,7 +731,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "sdkextensions.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -709,7 +755,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "statsd.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -731,7 +779,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "swcodec.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -753,7 +803,9 @@
         ]
       },
       "value": {
-        "Val": null
+        "Val": {
+          "StringValue": "tzdata.google.contributions.prebuilt"
+        }
       }
     },
     {
@@ -820,7 +872,7 @@
       },
       "value": {
         "Val": {
-          "BoolValue": false
+          "BoolValue": true
         }
       }
     },
@@ -1036,7 +1088,7 @@
       },
       "value": {
         "Val": {
-          "StringValue": ""
+          "StringValue": "202404"
         }
       }
     },
@@ -2073,7 +2125,7 @@
         "description": "Used to indicate the security patch that has been applied to the device. It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin. It must be of the form \"YYYY-MM-DD\" on production devices. It must match one of the Android Security Patch Level strings of the Public Security Bulletins. If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.",
         "value": {
           "Val": {
-            "StringValue": "2025-09-05"
+            "StringValue": "2025-08-01"
           }
         },
         "workflow": 3,
@@ -2086,7 +2138,7 @@
       },
       "value": {
         "Val": {
-          "StringValue": "2025-09-05"
+          "StringValue": "2026-02-05"
         }
       }
     },

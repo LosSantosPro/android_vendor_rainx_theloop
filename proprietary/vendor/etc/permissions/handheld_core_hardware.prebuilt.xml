@@ -30,7 +30,7 @@
     <feature name="android.hardware.camera" />
     <feature name="android.hardware.location" />
     <feature name="android.hardware.location.network" />
-    <!-- feature name="android.hardware.sensor.compass" /> -->
+    <feature name="android.hardware.sensor.compass" />
     <feature name="android.hardware.sensor.accelerometer" />
     <feature name="android.hardware.bluetooth" />
     <feature name="android.hardware.touchscreen" />
@@ -59,9 +59,6 @@
 
     <!-- Feature to specify if the device supports adding device admins. -->
     <feature name="android.software.device_admin" />
-
-    <!--trz-add-CtsWindowManagerDeviceAnimations Feature to specify if the device supports freeform. -->
-    <feature name="android.software.freeform_window_management" />
 
     <!-- Feature to specify if the device support managed users. -->
     <feature name="android.software.managed_users" notLowRam="true"/>

@@ -63,6 +63,134 @@
         <path name="ext_speaker_output" value="turnoff">
             <kctl name="Ext_Speaker_Amp Switch" value="0" />
         </path>
+
+        <!--tfa9878 setting-->
+       <path name="SPK Mute" value="turnon"> <!--top mute, bottom unmute -->
+           <kctl name="SPK Mute" value="1 0" />
+       </path>
+
+       <path name="SPK Mute" value="turnoff"> <!-- top/bottom unmute -->
+           <kctl name="SPK Mute" value="0 0" />
+       </path>
+
+        <!--custom speaker output-->
+        <path name="SPK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="1 1" />
+        </path>
+        <path name="SPK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="DUAL_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="1 1" />
+        </path>
+        <path name="DUAL_SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="DUAL_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="1 1" />
+        </path>
+        <path name="DUAL_SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="DUAL_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="1 1" />
+        </path>
+        <path name="DUAL_SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="DUAL_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="1 1" />
+        </path>
+        <path name="DUAL_SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="0 1" />
+        </path>
+        <path name="SPK_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="0 1" />
+        </path>
+        <path name="SPK_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>        
+
+        <path name="SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_spk" />
+            <kctl name="SPK Active" value="0 1" />
+        </path>
+        <path name="SPK_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 1" />
+        </path>
+        <path name="SPK_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="RCV_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_rcv" />
+            <kctl name="SPK Active" value="1 0" />
+        </path>
+        <path name="RCV_INCALL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>        
+
+        <path name="RCV_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="voip_rcv" />
+            <kctl name="SPK Active" value="1 0" />
+        </path>
+        <path name="RCV_INCOMMUNICATION_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="RCV_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="call_rcv" />
+            <kctl name="SPK Active" value="1 0" />
+        </path>
+        <path name="RCV_LOOPBACK_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
+        <path name="RCV_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnon">
+            <kctl name="SPK Profile" value="handset" />
+            <kctl name="SPK Active" value="1 0" />
+        </path>
+        <path name="RCV_NORMAL_OUT_DEVICE_CTRL_PRE_PMU" value="turnoff">
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+        </path>
+
         <!--mic setting-->
         <path name="builtin_Mic_Mic1" value="turnon">
             <kctl name="MISO0_MUX" value="UL1_CH1" />
@@ -110,7 +238,7 @@
             <kctl name="MISO0_MUX" value="UL1_CH2" />
             <kctl name="MISO1_MUX" value="UL1_CH2" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA1_R" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA1_R" />
         </path>
@@ -206,28 +334,13 @@
             <kctl name="UL_SRC_MUX" value="AMIC" />
             <kctl name="UL2_SRC_MUX" value="AMIC" />
         </path>
-        <path name="builtin_Mic_SingleMic_Inverse" value="turnon">
-            <kctl name="MISO0_MUX" value="UL1_CH2" />
-            <kctl name="MISO1_MUX" value="UL1_CH2" />
-            <kctl name="ADC_L_Mux" value="Left Preamplifier" />
-            <kctl name="PGA_L_Mux" value="AIN0" />
-            <kctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
-            <kctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
-        </path>
-        <path name="builtin_Mic_SingleMic_Inverse" value="turnoff">
-            <kctl name="MISO1_MUX" value="UL1_CH1" />
-            <kctl name="ADC_L_Mux" value="Idle" />
-            <kctl name="PGA_L_Mux" value="None" />
-            <kctl name="UL_SRC_MUX" value="AMIC" />
-            <kctl name="UL2_SRC_MUX" value="AMIC" />
-        </path>
         <path name="builtin_Mic_DualMic" value="turnon">
             <kctl name="MISO0_MUX" value="UL1_CH1" />
             <kctl name="MISO1_MUX" value="UL1_CH2" />
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA0" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
         </path>
@@ -245,7 +358,7 @@
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA0" />
         </path>
@@ -315,7 +428,7 @@
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA0" />
         </path>
@@ -335,7 +448,7 @@
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA0" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
         </path>
@@ -496,11 +609,9 @@
         </path>
         <path name="I2S3_HD_ON" value="setting">
             <kctl name="I2S3_HD_Mux" value="Low_Jitter" />
-            <kctl name="I2S3_Out_Mux" value="Dummy_Widget" />
         </path>
         <path name="I2S3_HD_OFF" value="setting">
             <kctl name="I2S3_HD_Mux" value="Normal" />
-            <kctl name="I2S3_Out_Mux" value="Normal" />
         </path>
         <path name="I2S5_HD_ON" value="setting">
             <kctl name="I2S5_HD_Mux" value="Low_Jitter" />
@@ -652,6 +763,14 @@
         <path name="PLAYBACK6_TO_I2S5" value="turnoff">
             <kctl name="I2S5_CH1 DL6_CH1" value="0" />
             <kctl name="I2S5_CH2 DL6_CH2" value="0" />
+        </path>
+        <path name="PLAYBACK6_TO_CAPTURE2" value="turnon">
+            <kctl name="UL2_CH1 DL6_CH1" value="1" />
+            <kctl name="UL2_CH2 DL6_CH2" value="1" />
+        </path>
+        <path name="PLAYBACK6_TO_CAPTURE2" value="turnoff">
+            <kctl name="UL2_CH1 DL6_CH1" value="0" />
+            <kctl name="UL2_CH2 DL6_CH2" value="0" />
         </path>
         <path name="PLAYBACK3_TO_ADDA_DL" value="turnon">
             <kctl name="ADDA_DL_CH1 DL3_CH1" value="1" />
@@ -1095,11 +1214,11 @@
         </path>
         <path name="MD1_TO_I2S3" value="turnon">
             <kctl name="I2S3_CH1 PCM_2_CAP_CH1" value="1" />
-            <kctl name="I2S3_CH2 PCM_2_CAP_CH1" value="1" />
+            <kctl name="I2S3_CH2 PCM_2_CAP_CH2" value="1" />
         </path>
         <path name="MD1_TO_I2S3" value="turnoff">
             <kctl name="I2S3_CH1 PCM_2_CAP_CH1" value="0" />
-            <kctl name="I2S3_CH2 PCM_2_CAP_CH1" value="0" />
+            <kctl name="I2S3_CH2 PCM_2_CAP_CH2" value="0" />
         </path>
         <path name="MIC1_MD1_TO_I2S3" value="turnon">
             <kctl name="PCM_2_PB_CH1 ADDA_UL_CH1" value="1" />
@@ -1421,7 +1540,13 @@
             <kctl name="UL_SRC_MUX" value="AMIC" />
             <kctl name="UL2_SRC_MUX" value="AMIC" />
             <kctl name="usb_call_echo_ref" value="0" />
+            <!-- TFA9878 Amp default configuration -->
+            <kctl name="SPK Profile" value="default" />
+            <kctl name="SPK Active" value="0 0" />
+            <kctl name="SPK Mute" value="0 0" />
+            <kctl name="SPK Active" value="0 0" /> <!-- id="0" : Top, id="1" : Bottom -->
         </path>
+
         <path name="MD1_TO_CAPTURE2" value="turnon">
             <kctl name="UL2_CH1 PCM_2_CAP_CH1" value="1" />
             <kctl name="UL2_CH2 PCM_2_CAP_CH1" value="1" />
@@ -1564,15 +1689,15 @@
         </path>
         <path name="MD1_TO_CAPTURE6" value="turnon">
             <kctl name="UL6_CH1 PCM_2_CAP_CH1" value="1" />
-            <kctl name="UL6_CH2 PCM_2_CAP_CH1" value="1" />
+            <kctl name="UL6_CH2 PCM_2_CAP_CH2" value="1" />
         </path>
         <path name="MD1_TO_CAPTURE6" value="turnoff">
             <kctl name="UL6_CH1 PCM_2_CAP_CH1" value="0" />
-            <kctl name="UL6_CH2 PCM_2_CAP_CH1" value="0" />
+            <kctl name="UL6_CH2 PCM_2_CAP_CH2" value="0" />
         </path>
         <path name="MD2_TO_CAPTURE6" value="turnon">
             <kctl name="UL6_CH1 PCM_1_CAP_CH1" value="1" />
-            <kctl name="UL6_CH2 PCM_1_CAP_CH1" value="1" />
+            <kctl name="UL6_CH2 PCM_1_CAP_CH2" value="1" />
         </path>
         <path name="MD2_TO_CAPTURE6" value="turnoff">
             <kctl name="UL6_CH1 PCM_1_CAP_CH1" value="0" />

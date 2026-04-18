@@ -2447,8 +2447,6 @@ PRODUCT_PACKAGES += \
     DataChannelService \
     EmergencyInfoGms \
     FMRadio \
-    GoogleFeedback \
-    GoogleServicesFramework \
     MtkCapCtrl \
     MtkGbaService \
     MtkTelephonyAssist \
@@ -2498,8 +2496,15 @@ PRODUCT_PACKAGES += \
     gnss-default.xml.vendor_rainx \
     BuildManifestSystemExt \
     mtk-mbrainj-default.xml \
+    aee_aedv \
+    aee_aedv64 \
+    aee_dumpstatev \
     atcid \
     audiocmdservice_atci \
+    eara_io_service \
+    gbe \
+    kph \
+    tee_check_keybox \
     autobt \
     bt_dump \
     ccci_mdinit \

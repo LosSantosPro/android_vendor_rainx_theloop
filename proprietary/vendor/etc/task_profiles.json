@@ -27,7 +27,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": "background"
+            "Path": "low"
           }
         }
       ]
@@ -40,7 +40,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "normal"
           }
         }
       ]
@@ -53,7 +53,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "high"
           }
         }
       ]
@@ -66,7 +66,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "top"
           }
         }
       ]
@@ -179,6 +179,32 @@
           }
         }
       ]
+    },
+    {
+     "Name": "GpisSfCpusetEnable",
+     "Actions": [
+       {
+         "Name": "SetAttribute",
+         "Params":
+         {
+           "Name": "GpisSfCpuset",
+           "Value": "6-7"
+         }
+       }
+     ]
+    },
+    {
+     "Name": "GpisSfCpusetDisable",
+     "Actions": [
+       {
+         "Name": "SetAttribute",
+         "Params":
+         {
+           "Name": "GpisSfCpuset",
+           "Value": "0-5"
+         }
+       }
+     ]
     }
   ],
 

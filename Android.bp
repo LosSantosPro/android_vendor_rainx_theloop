@@ -901,6 +901,15 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+// Orphan Widevine L1 cc_prebuilt modules (liboemcrypto, libteecl) were removed —
+// those were part of an abandoned approach using Samsung's OPK-style
+// liboemcrypto.so with a TEEC shim. Proven not viable: Samsung's lib
+// doesn't export the public OEMCrypto API that Google's CDM calls, and
+// theloop's L1 path goes through /vendor/bin/kph keybox import into
+// TrustKernel's KPH TA instead. Blob files remain in proprietary/vendor/lib*/
+// for when we resurrect L1 with a valid keybox; they're just no longer
+// referenced by Soong.
+
 cc_prebuilt_library_shared {
 	name: "libtflite_mtk",
 	owner: "rainx",
@@ -24729,29 +24738,13 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "GoogleFeedback",
-	owner: "rainx",
-	apk: "proprietary/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "GoogleServicesFramework",
-	owner: "rainx",
-	apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
+// GoogleFeedback + GoogleServicesFramework module definitions removed —
+// they collide with MindTheGapps's canonical modules of the same name in
+// vendor/gapps/common. MindTheGapps provides fresher, real-Google-signed
+// versions for A16. The APKs previously shipped here are the A34 blobs,
+// kept on disk but unreferenced (harmless orphans until someone runs
+// setup-makefiles.sh, which would re-add them — add to its skip list if
+// that's an issue).
 
 android_app_import {
 	name: "ImsService",
@@ -24873,17 +24866,8 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "SetupWizard",
-	owner: "rainx",
-	apk: "proprietary/system_ext/priv-app/SetupWizard/SetupWizard.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
+// SetupWizard removed — collides with MindTheGapps's (vendor/gapps/common)
+// Google SetupWizard. Use MindTheGapps's version; it's the real Google OOBE.
 
 android_app_import {
 	name: "SimProcessor",
@@ -27004,4 +26988,135 @@ cc_prebuilt_binary {
 	check_elf_files: false,
 	system_ext_specific: true,
 }
+
+// ===========================================================================
+// Audit-driven additions — binaries present in proprietary/vendor/bin/ but
+// not previously declared as Soong modules, so they never landed in the
+// vendor image. Stock A15 runs these; our port had init.rc entries referencing
+// them but the binaries were missing, so the services silently failed to
+// start. See device audit notes.
+// ===========================================================================
+
+cc_prebuilt_binary {
+	name: "aee_aedv",
+	owner: "rainx",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/aee_aedv"],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "aee_aedv64",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/aee_aedv64"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "aee_dumpstatev",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/aee_dumpstatev"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "eara_io_service",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/eara_io_service"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gbe",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/gbe"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+// Widevine L1 provisioning tools — required for future keybox deployment via
+// `kph -c import_widevine_keybox -i <file>`. Not invoked at boot (except
+// tee_check_keybox, triggered by trustkernel.rc to set deployed flags).
+cc_prebuilt_binary {
+	name: "kph",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/kph"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tee_check_keybox",
+	owner: "rainx",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/tee_check_keybox"],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: false,
+	check_elf_files: false,
+	soc_specific: true,
+}
+
 

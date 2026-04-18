@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- TS.25 version: <Published TS.25 Database 26 February 2024> -->
+<!-- TS.25 version: <Published TS.25 Databse 24 February 2025> -->
 <spnOverrides version="1">
-<spnOverride numeric="13913" spn="Test 2"/>
-<spnOverride numeric="13914" spn="Test1"/>
 <spnOverride numeric="20201" spn="GR COSMOTE"/>
 <spnOverride numeric="20205" spn="vodafone GR"/>
 <spnOverride numeric="20209" spn="WIND GR"/>
@@ -10,7 +8,7 @@
 <spnOverride numeric="20404" spn="vodafone NL"/>
 <spnOverride numeric="20408" spn="NL KPN"/>
 <spnOverride numeric="20412" spn="NL Telfort"/>
-<spnOverride numeric="20416" spn="T-Mobile NL"/>
+<spnOverride numeric="20416" spn="Odido"/>
 <spnOverride numeric="20601" spn="Proximus"/>
 <spnOverride numeric="20605" spn="BASE"/>
 <spnOverride numeric="20610" spn="Orange B"/>
@@ -28,7 +26,6 @@
 <spnOverride numeric="21201" spn="vala"/>
 <spnOverride numeric="21210" spn="Monaco"/>
 <spnOverride numeric="21303" spn="AndorraTelecom"/>
-<spnOverride numeric="21401" spn="vodafone ES"/>
 <spnOverride numeric="21403" spn="Orange SP"/>
 <spnOverride numeric="21404" spn="YOIGO"/>
 <spnOverride numeric="21407" spn="Movistar"/>
@@ -45,6 +42,7 @@
 <spnOverride numeric="22001" spn="SRB Yettel"/>
 <spnOverride numeric="22003" spn="mt:s"/>
 <spnOverride numeric="22005" spn="A1 SRB"/>
+<spnOverride numeric="22101" spn="Vala KS"/>
 <spnOverride numeric="22102" spn="IPKO"/>
 <spnOverride numeric="22201" spn="I TIM"/>
 <spnOverride numeric="22210" spn="vodafone IT"/>
@@ -57,7 +55,6 @@
 <spnOverride numeric="22801" spn="Swisscom"/>
 <spnOverride numeric="22802" spn="Sunrise"/>
 <spnOverride numeric="22803" spn="Salt"/>
-<spnOverride numeric="22853" spn="Sunrise CH"/>
 <spnOverride numeric="23001" spn="T-Mobile CZ"/>
 <spnOverride numeric="23002" spn="O2 - CZ"/>
 <spnOverride numeric="23003" spn="Vodafone CZ"/>
@@ -80,7 +77,6 @@
 <spnOverride numeric="23433" spn="EE"/>
 <spnOverride numeric="23450" spn="JT"/>
 <spnOverride numeric="23455" spn="Sure"/>
-<spnOverride numeric="23458" spn="Manx Telecom"/>
 <spnOverride numeric="23801" spn="TDC"/>
 <spnOverride numeric="23802" spn="Telenor DK"/>
 <spnOverride numeric="23806" spn="3 DK"/>
@@ -97,12 +93,12 @@
 <spnOverride numeric="24202" spn="N Telia"/>
 <spnOverride numeric="24214" spn="N ice"/>
 <spnOverride numeric="24403" spn="FI DNA"/>
-<spnOverride numeric="24405" spn="FI elisa"/>
+<spnOverride numeric="24405" spn="FI Elisa"/>
 <spnOverride numeric="24412" spn="FI DNA"/>
 <spnOverride numeric="24414" spn="FI AMT"/>
-<spnOverride numeric="24421" spn="FI elisa"/>
+<spnOverride numeric="24421" spn="FI Elisa"/>
 <spnOverride numeric="24436" spn="DNA - Telia FI"/>
-<spnOverride numeric="24445" spn="FI elisa"/>
+<spnOverride numeric="24445" spn="Erillisverkot"/>
 <spnOverride numeric="24491" spn="Telia FI"/>
 <spnOverride numeric="24601" spn="Telia LT"/>
 <spnOverride numeric="24602" spn="LT BITE GSM"/>
@@ -114,7 +110,6 @@
 <spnOverride numeric="24802" spn="Elisa EE"/>
 <spnOverride numeric="24803" spn="Tele2 EE"/>
 <spnOverride numeric="25001" spn="MTS RUS"/>
-<spnOverride numeric="25016" spn="miatel"/>
 <spnOverride numeric="25027" spn="LETAI"/>
 <spnOverride numeric="25062" spn="Tinkoff Mobile"/>
 <spnOverride numeric="25099" spn="beeline"/>
@@ -129,7 +124,6 @@
 <spnOverride numeric="25901" spn="Orange MD"/>
 <spnOverride numeric="25902" spn="Moldcell"/>
 <spnOverride numeric="25905" spn="Moldtelecom"/>
-<spnOverride numeric="25915" spn="IDC"/>
 <spnOverride numeric="26001" spn="Plus"/>
 <spnOverride numeric="26002" spn="T-Mobile.pl"/>
 <spnOverride numeric="26003" spn="Orange PL"/>
@@ -143,11 +137,9 @@
 <spnOverride numeric="26601" spn="GIBTEL"/>
 <spnOverride numeric="26603" spn="GIBFIBRE"/>
 <spnOverride numeric="26801" spn="vodafone P"/>
-<spnOverride numeric="26803" spn="NOS"/>
 <spnOverride numeric="26806" spn="MEO"/>
 <spnOverride numeric="27001" spn="POST"/>
 <spnOverride numeric="27002" spn="MTX Connect"/>
-<spnOverride numeric="27005" spn="LOL"/>
 <spnOverride numeric="27077" spn="L TANGO"/>
 <spnOverride numeric="27099" spn="L Orange-LU"/>
 <spnOverride numeric="27201" spn="vodafone IE"/>
@@ -163,15 +155,15 @@
 <spnOverride numeric="27801" spn="epic"/>
 <spnOverride numeric="27821" spn="go mobile"/>
 <spnOverride numeric="27877" spn="Melita Mobile"/>
-<spnOverride numeric="28001" spn="Cyta-Voda"/>
+<spnOverride numeric="28001" spn="Cyta"/>
 <spnOverride numeric="28010" spn="epic"/>
 <spnOverride numeric="28020" spn="PrimeTel PLC"/>
 <spnOverride numeric="28022" spn="Cablenet"/>
-<spnOverride numeric="28201" spn="GEO-GEOCELL"/>
+<spnOverride numeric="28201" spn="GEO-GCELL"/>
 <spnOverride numeric="28202" spn="MAGTI-GSM-GEO"/>
-<spnOverride numeric="28204" spn="BEELINE"/>
+<spnOverride numeric="28204" spn="Cellfie"/>
 <spnOverride numeric="28301" spn="Telecom Armenia"/>
-<spnOverride numeric="28305" spn="MTS ARM"/>
+<spnOverride numeric="28305" spn="Viva"/>
 <spnOverride numeric="28310" spn="Ucom AM"/>
 <spnOverride numeric="28401" spn="A1 BG"/>
 <spnOverride numeric="28403" spn="Vivacom BG"/>
@@ -179,6 +171,7 @@
 <spnOverride numeric="28601" spn="TR TURKCELL"/>
 <spnOverride numeric="28602" spn="Vodafone Türkiye"/>
 <spnOverride numeric="28603" spn="Turk Telekom"/>
+<spnOverride numeric="28622" spn="Selam"/>
 <spnOverride numeric="28801" spn="Foroya Tele"/>
 <spnOverride numeric="28802" spn="VODAFONE FO"/>
 <spnOverride numeric="29001" spn="Tusass"/>
@@ -212,16 +205,15 @@
 <spnOverride numeric="302940" spn="Wightman"/>
 <spnOverride numeric="30801" spn="SPM AMERIS"/>
 <spnOverride numeric="30803" spn="SPM Telecom"/>
+<spnOverride numeric="30804" spn="Globaltel"/>
 <spnOverride numeric="310020" spn="US - Union Telephone"/>
 <spnOverride numeric="310030" spn="AT&amp;T"/>
 <spnOverride numeric="310040" spn="Mobi"/>
 <spnOverride numeric="310050" spn="GCI"/>
-<spnOverride numeric="310110" spn="IT&amp;E"/>
 <spnOverride numeric="310140" spn="GTA"/>
 <spnOverride numeric="310150" spn="AT&amp;T"/>
 <spnOverride numeric="310160" spn="T-Mobile"/>
 <spnOverride numeric="310170" spn="AT&amp;T"/>
-<spnOverride numeric="310180" spn="West Central Wireless"/>
 <spnOverride numeric="310190" spn="USA Dutch Harbor"/>
 <spnOverride numeric="310200" spn="T-Mobile"/>
 <spnOverride numeric="310210" spn="T-Mobile"/>
@@ -243,17 +235,20 @@
 <spnOverride numeric="310460" spn="USA1L"/>
 <spnOverride numeric="310470" spn="DOCOMO PACIFIC"/>
 <spnOverride numeric="310490" spn="T-Mobile"/>
-<spnOverride numeric="31058" spn="Inland Cellular"/>
+<spnOverride numeric="310580" spn="Inland Cellular"/>
 <spnOverride numeric="310630" spn="USA AmeriLink"/>
 <spnOverride numeric="310660" spn="T-Mobile"/>
 <spnOverride numeric="310690" spn="Limitless Mobile"/>
 <spnOverride numeric="310730" spn="U.S.Cellular"/>
 <spnOverride numeric="310800" spn="T-Mobile"/>
+<spnOverride numeric="310830" spn="T-Mobile"/>
 <spnOverride numeric="310840" spn="telna Mobile"/>
+<spnOverride numeric="310950" spn="AT&amp;T"/>
 <spnOverride numeric="310990" spn="Worldcall"/>
 <spnOverride numeric="311040" spn="USA - Commnet"/>
 <spnOverride numeric="311080" spn="Pine Cellular"/>
 <spnOverride numeric="311170" spn="Tampnet"/>
+<spnOverride numeric="311180" spn="AT&amp;T"/>
 <spnOverride numeric="311230" spn="C Spire"/>
 <spnOverride numeric="311240" spn="USACWCI"/>
 <spnOverride numeric="311270" spn="Verizon"/>
@@ -261,7 +256,7 @@
 <spnOverride numeric="311480" spn="Verizon"/>
 <spnOverride numeric="311490" spn="T-Mobile"/>
 <spnOverride numeric="311500" spn="Mobi"/>
-<spnOverride numeric="311530" spn="PTCI"/>
+<spnOverride numeric="311530" spn="USANW"/>
 <spnOverride numeric="311560" spn="USA OTZ"/>
 <spnOverride numeric="311580" spn="U.S.Cellular"/>
 <spnOverride numeric="311600" spn="Limitless Mobile"/>
@@ -273,7 +268,6 @@
 <spnOverride numeric="312180" spn="Limitless Mobile"/>
 <spnOverride numeric="312250" spn="T-Mobile"/>
 <spnOverride numeric="312260" spn="USACL"/>
-<spnOverride numeric="312280" spn="Pioneer"/>
 <spnOverride numeric="312290" spn="Strata Networks USA"/>
 <spnOverride numeric="312380" spn="Copper Valley Wireless"/>
 <spnOverride numeric="312420" spn="Nex-Tech Wireless USA"/>
@@ -286,8 +280,10 @@
 <spnOverride numeric="313380" spn="OptimERA"/>
 <spnOverride numeric="313450" spn="Spectrum Mobile"/>
 <spnOverride numeric="313460" spn="Mobi"/>
-<spnOverride numeric="313790" spn="Liberty Mobile"/>
+<spnOverride numeric="314440" spn="TGS"/>
 <spnOverride numeric="314590" spn="Lynk"/>
+<spnOverride numeric="314710" spn="Ringer"/>
+<spnOverride numeric="314730" spn="TextNow USA"/>
 <spnOverride numeric="330110" spn="PR Claro"/>
 <spnOverride numeric="334020" spn="TELCEL"/>
 <spnOverride numeric="33403" spn="Movistar"/>
@@ -316,9 +312,9 @@
 <spnOverride numeric="36251" spn="Telcell GSM"/>
 <spnOverride numeric="36269" spn="Digicel"/>
 <spnOverride numeric="36278" spn="Kla"/>
+<spnOverride numeric="36291" spn="Chippie"/>
 <spnOverride numeric="36301" spn="SETAR"/>
 <spnOverride numeric="36302" spn="AW Digicel"/>
-<spnOverride numeric="36439" spn="BTC"/>
 <spnOverride numeric="36449" spn="aliv"/>
 <spnOverride numeric="365840" spn="FLOW"/>
 <spnOverride numeric="366110" spn="FLOW"/>
@@ -335,7 +331,6 @@
 <spnOverride numeric="40004" spn="AZ Nar"/>
 <spnOverride numeric="40101" spn="Beeline KZ"/>
 <spnOverride numeric="40102" spn="Kcell"/>
-<spnOverride numeric="40107" spn="ALTEL"/>
 <spnOverride numeric="40177" spn="Tele2"/>
 <spnOverride numeric="40211" spn="BT B-Mobile"/>
 <spnOverride numeric="40277" spn="TASHICELL"/>
@@ -441,16 +436,15 @@
 <spnOverride numeric="41301" spn="Mobitel LK"/>
 <spnOverride numeric="41302" spn="DIALOG"/>
 <spnOverride numeric="41303" spn="Hutch"/>
+<spnOverride numeric="41305" spn="DIALOG"/>
 <spnOverride numeric="41308" spn="Hutch"/>
 <spnOverride numeric="41309" spn="Hutch"/>
 <spnOverride numeric="41401" spn="MM 900"/>
 <spnOverride numeric="41405" spn="Ooredoo"/>
-<spnOverride numeric="41406" spn="Telenor"/>
 <spnOverride numeric="41409" spn="MYTEL"/>
 <spnOverride numeric="41501" spn="alfa"/>
 <spnOverride numeric="41503" spn="touch"/>
 <spnOverride numeric="41601" spn="Zain JO"/>
-<spnOverride numeric="41603" spn="UMNIAH"/>
 <spnOverride numeric="41677" spn="Orange JO"/>
 <spnOverride numeric="41805" spn="ASIACELL"/>
 <spnOverride numeric="41820" spn="zain IQ"/>
@@ -486,19 +480,22 @@
 <spnOverride numeric="43404" spn="Beeline UZ"/>
 <spnOverride numeric="43405" spn="UZB Ucell"/>
 <spnOverride numeric="43407" spn="UMS-UZB"/>
-<spnOverride numeric="43408" spn="UzMobile"/>
-<spnOverride numeric="43601" spn="TCELL"/>
-<spnOverride numeric="43602" spn="TCELL"/>
+<spnOverride numeric="43408" spn="UzTelecom"/>
 <spnOverride numeric="43604" spn="Babilon-M"/>
 <spnOverride numeric="43605" spn="ZET-MOBILE"/>
 <spnOverride numeric="43701" spn="Beeline KG"/>
 <spnOverride numeric="43705" spn="MEGA"/>
 <spnOverride numeric="43709" spn="O!"/>
 <spnOverride numeric="44010" spn="JP DOCOMO"/>
+<spnOverride numeric="44011" spn="Rakuten"/>
 <spnOverride numeric="44020" spn="SoftBank"/>
-<spnOverride numeric="44050" spn="KDDI_50"/>
-<spnOverride numeric="44051" spn="KDDI_51"/>
-<spnOverride numeric="44054" spn="KDDI_54"/>
+<spnOverride numeric="44050" spn="44050"/>
+<spnOverride numeric="44051" spn="KDDI(au)"/>
+<spnOverride numeric="44054" spn="44054"/>
+<spnOverride numeric="44091" spn="JPN-ROAM D"/>
+<spnOverride numeric="44092" spn="JPN-ROAM K"/>
+<spnOverride numeric="44093" spn="JPN-ROAM S"/>
+<spnOverride numeric="44094" spn="JPN-ROAM R"/>
 <spnOverride numeric="45005" spn="KOR SK Telecom"/>
 <spnOverride numeric="45006" spn="KOR LG Uplus"/>
 <spnOverride numeric="45008" spn="KT"/>
@@ -528,15 +525,11 @@
 <spnOverride numeric="45505" spn="3 Macau"/>
 <spnOverride numeric="45507" spn="China Telecom"/> <!-- Notice: CT case. Please check case before modify -->
 <spnOverride numeric="45601" spn="Cellcard"/>
-<spnOverride numeric="45602" spn="Smart"/>
-<spnOverride numeric="45605" spn="Smart"/>
-<spnOverride numeric="45606" spn="Smart"/>
 <spnOverride numeric="45608" spn="Metfone"/>
 <spnOverride numeric="45701" spn="LAO GSM"/>
 <spnOverride numeric="45702" spn="ETL MOBILE NETWORK"/>
 <spnOverride numeric="45703" spn="Unitel"/>
 <spnOverride numeric="45707" spn="Best Telecom Laos"/>
-<spnOverride numeric="45708" spn="TPLUS"/>
 <spnOverride numeric="46000" spn="CHINA MOBILE"/>
 <spnOverride numeric="46001" spn="CHN-UNICOM"/>
 <spnOverride numeric="46002" spn="CHINA MOBILE"/>
@@ -546,7 +539,6 @@
 <spnOverride numeric="46008" spn="CHINA MOBILE"/>
 <spnOverride numeric="46009" spn="CHN-UNICOM"/>
 <spnOverride numeric="46011" spn="CHN-CT"/>
-<spnOverride numeric="46015" spn="CHINA BROADNET"/>
 <spnOverride numeric="46601" spn="Far EasTone"/>
 <spnOverride numeric="46605" spn="TWN APT"/>
 <spnOverride numeric="46611" spn="Chunghwa Telecom"/>
@@ -557,11 +549,9 @@
 <spnOverride numeric="46618" spn="Chunghwa Telecom"/>
 <spnOverride numeric="46619" spn="Chunghwa Telecom"/>
 <spnOverride numeric="46688" spn="KGT-Online"/>
-<spnOverride numeric="46689" spn="T Star"/>
+<spnOverride numeric="46689" spn="T-Star"/>
 <spnOverride numeric="46692" spn="Chunghwa Telecom"/>
-<spnOverride numeric="46693" spn="TWN MOBITAI"/>
 <spnOverride numeric="46697" spn="TW Mobile"/>
-<spnOverride numeric="46699" spn="TWM TransAsi"/>
 <spnOverride numeric="470001" spn="Grameenphone"/>
 <spnOverride numeric="47002" spn="robi axiata"/>
 <spnOverride numeric="47003" spn="Banglalink"/>
@@ -572,21 +562,18 @@
 <spnOverride numeric="50213" spn="MY CELCOM"/>
 <spnOverride numeric="502152" spn="YES"/>
 <spnOverride numeric="502153" spn="unifi"/>
-<spnOverride numeric="50216" spn="Digi"/>
 <spnOverride numeric="50218" spn="U MOBILE"/>
 <spnOverride numeric="50219" spn="MY CELCOM"/>
 <spnOverride numeric="50501" spn="Telstra Mobile"/>
 <spnOverride numeric="50502" spn="YES OPTUS"/>
 <spnOverride numeric="50503" spn="vodafone AU"/>
-<spnOverride numeric="50510" spn="Norfolk Telecom"/>
+<spnOverride numeric="50510" spn="norfolk telecom"/>
 <spnOverride numeric="50550" spn="Pivotel"/>
 <spnOverride numeric="50571" spn="Telstra Mobile"/>
 <spnOverride numeric="50572" spn="Telstra Mobile"/>
 <spnOverride numeric="51001" spn="IND INDOSAT"/>
-<spnOverride numeric="51008" spn="IND XL"/>
 <spnOverride numeric="51009" spn="Smartfren"/>
 <spnOverride numeric="51010" spn="IND TELKOMSEL"/>
-<spnOverride numeric="51011" spn="IND XL"/>
 <spnOverride numeric="51021" spn="IND INDOSAT"/>
 <spnOverride numeric="51028" spn="Smartfren"/>
 <spnOverride numeric="51089" spn="3"/>
@@ -613,12 +600,15 @@
 <spnOverride numeric="52802" spn="PCSB"/>
 <spnOverride numeric="52803" spn="UNN"/>
 <spnOverride numeric="52811" spn="DSTCom"/>
-<spnOverride numeric="53001" spn="vodafone NZ"/>
+<spnOverride numeric="53001" spn="One NZ"/>
 <spnOverride numeric="53005" spn="Spark NZ"/>
+<spnOverride numeric="53013" spn="One NZ SpaceX"/>
 <spnOverride numeric="53024" spn="2degrees"/>
+<spnOverride numeric="53603" spn="NEOTEL NR"/>
+<spnOverride numeric="53701" spn="TELIKOM LIMITED"/>
+<spnOverride numeric="53702" spn="TELIKOM LIMITED"/>
 <spnOverride numeric="53703" spn="DIGICEL"/>
 <spnOverride numeric="53704" spn="PG VODAFONE"/>
-<spnOverride numeric="53901" spn="U-CALL"/>
 <spnOverride numeric="53988" spn="Digicel Tonga"/>
 <spnOverride numeric="54001" spn="Our Telekom"/>
 <spnOverride numeric="54002" spn="bmobile"/>
@@ -628,9 +618,10 @@
 <spnOverride numeric="54202" spn="DIGICEL"/>
 <spnOverride numeric="54301" spn="Manuia"/>
 <spnOverride numeric="544110" spn="Bluesky Communications"/>
+<spnOverride numeric="54502" spn="OceanCell"/>
 <spnOverride numeric="54601" spn="NCL MOBILIS"/>
 <spnOverride numeric="54705" spn="VITI"/>
-<spnOverride numeric="54715" spn="VODAFONE PF"/>
+<spnOverride numeric="54715" spn="VODAFONE"/>
 <spnOverride numeric="54720" spn="F-VINI"/>
 <spnOverride numeric="54801" spn="CK KOKANET"/>
 <spnOverride numeric="54900" spn="DIGICEL"/>
@@ -639,14 +630,11 @@
 <spnOverride numeric="55201" spn="PalauCel"/>
 <spnOverride numeric="55299" spn="PLW PMCI"/>
 <spnOverride numeric="55301" spn="TV TTC"/>
-<spnOverride numeric="55401" spn="Teletok"/>
 <spnOverride numeric="60201" spn="Orange EG"/>
 <spnOverride numeric="60202" spn="vodafone EG"/>
 <spnOverride numeric="60203" spn="Etisalat"/>
 <spnOverride numeric="60204" spn="EGYwe"/>
 <spnOverride numeric="60301" spn="ALG Mobilis"/>
-<spnOverride numeric="60302" spn="Djezzy"/>
-<spnOverride numeric="60303" spn="ooredoo Algeria"/>
 <spnOverride numeric="60400" spn="Orange MA"/>
 <spnOverride numeric="60401" spn="MOR IAM"/>
 <spnOverride numeric="60402" spn="inwi"/>
@@ -655,55 +643,43 @@
 <spnOverride numeric="60600" spn="Libyana"/>
 <spnOverride numeric="60702" spn="AFRICELL"/>
 <spnOverride numeric="60704" spn="Qcell"/>
-<spnOverride numeric="60801" spn="Orange SN"/>
 <spnOverride numeric="60802" spn="SEN"/>
-<spnOverride numeric="60803" spn="SEN expresso"/>
 <spnOverride numeric="60901" spn="MR MATTEL"/>
 <spnOverride numeric="61002" spn="ORANGE ML"/>
 <spnOverride numeric="61101" spn="Orange GN"/>
-<spnOverride numeric="61105" spn="GINCL"/>
 <spnOverride numeric="61202" spn="MOOV CI"/>
 <spnOverride numeric="61203" spn="Orange"/>
-<spnOverride numeric="61402" spn="Airtel"/>
 <spnOverride numeric="61501" spn="TG-TOGOCOM"/>
-<spnOverride numeric="61503" spn="MOOV"/>
 <spnOverride numeric="61701" spn="CELLPLUS-MRU"/>
 <spnOverride numeric="61703" spn="MTML"/>
 <spnOverride numeric="61710" spn="EMTEL-MRU"/>
-<spnOverride numeric="61801" spn="LBR Lonestar Cell"/>
 <spnOverride numeric="61807" spn="Orange LBR"/>
 <spnOverride numeric="61905" spn="Africell"/>
 <spnOverride numeric="61907" spn="QCell"/>
-<spnOverride numeric="62001" spn="GH MTN"/>
 <spnOverride numeric="62003" spn="AirtelTigo"/>
 <spnOverride numeric="62006" spn="AirtelTigo"/>
 <spnOverride numeric="62120" spn="Airtel"/>
-<spnOverride numeric="62130" spn="MTN - NG"/>
 <spnOverride numeric="62150" spn="Glo NG"/>
-<spnOverride numeric="62201" spn="Airtel"/>
-<spnOverride numeric="62401" spn="MTN CAM"/>
 <spnOverride numeric="62402" spn="Orange CM"/>
-<spnOverride numeric="62501" spn="CVMovel"/>
-<spnOverride numeric="62502" spn="Unitel T+"/>
-<spnOverride numeric="62601" spn="STP CSTmovel"/>
+<spnOverride numeric="62501" spn="ALOU"/>
 <spnOverride numeric="62701" spn="GETESA"/>
 <spnOverride numeric="62801" spn="LIBERTIS"/>
+<spnOverride numeric="62803" spn="Airtel"/>
+<spnOverride numeric="62901" spn="COG03"/>
 <spnOverride numeric="62910" spn="COG MTN"/>
-<spnOverride numeric="63001" spn="Vodacom Congo"/>
-<spnOverride numeric="63002" spn="Airtel"/>
 <spnOverride numeric="63086" spn="Orange RDC"/>
 <spnOverride numeric="63090" spn="Africell RDC"/>
-<spnOverride numeric="63102" spn="UNITEL"/>
 <spnOverride numeric="63203" spn="Orange GB"/>
 <spnOverride numeric="63301" spn="C&amp;W SEY"/>
+<spnOverride numeric="63310" spn="Airtel"/>
 <spnOverride numeric="63401" spn="Zain SDN"/>
 <spnOverride numeric="63510" spn="MTN RWANDA"/>
+<spnOverride numeric="63513" spn="AirtelRW"/>
 <spnOverride numeric="63601" spn="ethio telecom"/>
 <spnOverride numeric="63701" spn="SO Telesom"/>
 <spnOverride numeric="63730" spn="Som Golis"/>
 <spnOverride numeric="63750" spn="Hormuud Telecom"/>
 <spnOverride numeric="63790" spn="AMTEL LTD"/>
-<spnOverride numeric="63801" spn="DJ EVATIS"/>
 <spnOverride numeric="63903" spn="Airtel"/>
 <spnOverride numeric="63910" spn="FAIBA"/>
 <spnOverride numeric="64002" spn="TIGO - TZ"/>
@@ -712,26 +688,21 @@
 <spnOverride numeric="64104" spn="UG TANG"/>
 <spnOverride numeric="64111" spn="Uganda Telecom"/>
 <spnOverride numeric="64301" spn="MOZ - mCel"/>
-<spnOverride numeric="64304" spn="VodaCom-MZ"/>
 <spnOverride numeric="64501" spn="Airtel"/>
 <spnOverride numeric="64601" spn="Airtel"/>
 <spnOverride numeric="64604" spn="TELMA"/>
 <spnOverride numeric="64700" spn="Orange re"/>
 <spnOverride numeric="64702" spn="TELCO OI"/>
 <spnOverride numeric="64703" spn="FREE MOBILE RE"/>
+<spnOverride numeric="64704" spn="ZEOP MOBILE"/>
 <spnOverride numeric="64710" spn="SRR"/>
-<spnOverride numeric="64801" spn="ZW NET*ONE"/>
-<spnOverride numeric="64803" spn="TELECEL ZW"/>
 <spnOverride numeric="64804" spn="ZW ECONET"/>
-<spnOverride numeric="64901" spn="MTC NAMIBIA"/>
-<spnOverride numeric="64903" spn="tnmobile"/>
 <spnOverride numeric="65001" spn="TNM"/>
 <spnOverride numeric="65002" spn="Access"/>
 <spnOverride numeric="65010" spn="Airtel"/>
 <spnOverride numeric="65101" spn="Vodacom Lesotho"/>
 <spnOverride numeric="65102" spn="LS-ETL"/>
 <spnOverride numeric="65204" spn="BTC"/>
-<spnOverride numeric="65302" spn="Swazi Mobile"/>
 <spnOverride numeric="65501" spn="VodaCom-SA"/>
 <spnOverride numeric="65502" spn="TelkomSA"/>
 <spnOverride numeric="65505" spn="TelkomSA-R"/>
@@ -740,14 +711,12 @@
 <spnOverride numeric="65538" spn="rain"/>
 <spnOverride numeric="65701" spn="EriTel"/>
 <spnOverride numeric="65801" spn="Sure"/>
-<spnOverride numeric="65905" spn="Digitel"/>
 <spnOverride numeric="70267" spn="BTL"/>
 <spnOverride numeric="70269" spn="Smart"/>
 <spnOverride numeric="70401" spn="CLARO GTM"/>
 <spnOverride numeric="70402" spn="TIGO"/>
 <spnOverride numeric="70403" spn="CLARO GTM"/>
 <spnOverride numeric="70601" spn="CLARO SLV"/>
-<spnOverride numeric="70603" spn="Tigo SV"/>
 <spnOverride numeric="708001" spn="CLARO HND"/>
 <spnOverride numeric="70802" spn="TIGOHND"/>
 <spnOverride numeric="708030" spn="HND"/>
@@ -757,16 +726,12 @@
 <spnOverride numeric="71202" spn="I.C.E."/>
 <spnOverride numeric="71203" spn="CLARO CR"/>
 <spnOverride numeric="71204" spn="LIBERTY"/>
-<spnOverride numeric="71401" spn="+Movil - C&amp;W PAN"/>
-<spnOverride numeric="714020" spn="Tigo"/>
-<spnOverride numeric="71404" spn="DIGICEL"/>
 <spnOverride numeric="71606" spn="Movistar"/>
 <spnOverride numeric="71610" spn="CLARO PER"/>
 <spnOverride numeric="71615" spn="Viettel Peru"/>
-<spnOverride numeric="722010" spn="AR - TEFMVNO"/>
-<spnOverride numeric="72207" spn="AR - Movistar"/>
 <spnOverride numeric="72234" spn="AR PERSONAL"/>
 <spnOverride numeric="72236" spn="AR PERSONAL"/>
+<spnOverride numeric="72400" spn="Claro BRA"/>
 <spnOverride numeric="72402" spn="TIM BRA"/>
 <spnOverride numeric="72403" spn="TIM BRA"/>
 <spnOverride numeric="72404" spn="TIM BRA"/>
@@ -775,6 +740,7 @@
 <spnOverride numeric="72410" spn="VIVO"/>
 <spnOverride numeric="72411" spn="VIVO"/>
 <spnOverride numeric="72423" spn="VIVO"/>
+<spnOverride numeric="72429" spn="UNIFIQUE BRA"/>
 <spnOverride numeric="72432" spn="Algar Telecom"/>
 <spnOverride numeric="72433" spn="Algar Telecom"/>
 <spnOverride numeric="72434" spn="Algar Telecom"/>
@@ -786,14 +752,11 @@
 <spnOverride numeric="732103" spn="TIGO"/>
 <spnOverride numeric="732111" spn="TIGO"/>
 <spnOverride numeric="732123" spn="Movistar"/>
-<spnOverride numeric="732360" spn="WOM"/>
 <spnOverride numeric="73402" spn="DIGITEL"/>
 <spnOverride numeric="73404" spn="Movistar"/>
 <spnOverride numeric="73601" spn="VIVA"/>
 <spnOverride numeric="73602" spn="BOMOV"/>
-<spnOverride numeric="73603" spn="TIGO"/>
 <spnOverride numeric="738002" spn="GUY GTT + Do More"/>
-<spnOverride numeric="73801" spn="Digicel"/>
 <spnOverride numeric="738040" spn="ENet"/>
 <spnOverride numeric="74000" spn="Movistar"/>
 <spnOverride numeric="74001" spn="CLARO"/>
@@ -810,11 +773,14 @@
 <spnOverride numeric="90112" spn="Telenor Maritime"/>
 <spnOverride numeric="90114" spn="AeroMobile"/>
 <spnOverride numeric="90115" spn="OnAir"/>
+<spnOverride numeric="90119" spn="epic maritime"/>
 <spnOverride numeric="90126" spn="TIM@sea"/>
+<spnOverride numeric="90130" spn="OQ Technology"/>
 <spnOverride numeric="90140" spn="Telekom Deutschland GER"/>
 <spnOverride numeric="90144" spn="AT&amp;T"/>
 <spnOverride numeric="90145" spn="AISatSea"/>
 <spnOverride numeric="90146" spn="Telecom26"/>
+<spnOverride numeric="90149" spn="ZainGroup"/>
 <spnOverride numeric="90150" spn="EchoStar Mobile"/>
 <spnOverride numeric="90171" spn="Tampnet"/>
 <spnOverride numeric="90198" spn="Skylo Technologies"/>
@@ -822,7 +788,6 @@
 <spnOverride numeric="20217" spn="NOVA GR"/>
 <spnOverride numeric="20402" spn="Tele2 NL"/>
 <spnOverride numeric="21801" spn="HT ERONET"/>
-<spnOverride numeric="22101" spn="vala"/>
 <spnOverride numeric="22299" spn="3 ITA"/>
 <spnOverride numeric="22606" spn="TELEKOM.RO"/>
 <spnOverride numeric="22615" spn="RO 2K Telecom"/>
@@ -878,7 +843,6 @@
 <spnOverride numeric="31050" spn="GCI"/>
 <spnOverride numeric="310530" spn="Iowa Wireless USA"/>
 <spnOverride numeric="310560" spn="AT&amp;T"/>
-<spnOverride numeric="310580" spn="T-Mobile"/>
 <spnOverride numeric="310590" spn="Verizon"/>
 <spnOverride numeric="310640" spn="USA AE Airadigm"/>
 <spnOverride numeric="310650" spn="Jasper"/>
@@ -892,7 +856,6 @@
 <spnOverride numeric="310890" spn="Verizon"/>
 <spnOverride numeric="311090" spn="USASXLP"/>
 <spnOverride numeric="311150" spn="Wilkes USA"/>
-<spnOverride numeric="311180" spn="AT&amp;T"/>
 <spnOverride numeric="31130" spn="Indigo"/>
 <spnOverride numeric="311330" spn="BTW"/>
 <spnOverride numeric="31140" spn="USA - Commnet"/>
@@ -1125,7 +1088,6 @@
 <spnOverride numeric="52023" spn="TH GSM 1800"/>
 <spnOverride numeric="52507" spn="SGP Call Zone"/>
 <spnOverride numeric="53601" spn="PacCell"/>
-<spnOverride numeric="53702" spn="Telikom PNG"/>
 <spnOverride numeric="54509" spn="KL-Frigate"/>
 <spnOverride numeric="55101" spn="MH-NTA"/>
 <spnOverride numeric="55280" spn="PLWPMC"/>
@@ -1140,13 +1102,11 @@
 <spnOverride numeric="62207" spn="SALAM"/>
 <spnOverride numeric="62303" spn="Orange RCA"/>
 <spnOverride numeric="62304" spn="NationLink"/>
-<spnOverride numeric="62803" spn="Airtel"/>
 <spnOverride numeric="62804" spn="AZUR"/>
 <spnOverride numeric="62902" spn="AZUR COG"/>
 <spnOverride numeric="62907" spn="WARID RC"/>
 <spnOverride numeric="63005" spn="SCELL CD"/>
 <spnOverride numeric="63088" spn="CD Smart"/>
-<spnOverride numeric="63513" spn="TIGO RWANDA"/>
 <spnOverride numeric="63704" spn="SOMAFONE"/>
 <spnOverride numeric="63720" spn="Somnet TELECOM Inc"/>
 <spnOverride numeric="63771" spn="SOMTEL"/>
@@ -1165,7 +1125,6 @@
 <spnOverride numeric="71420" spn="Movistar"/>
 <spnOverride numeric="72210" spn="Movistar"/>
 <spnOverride numeric="722341" spn="AR PERSONAL"/>
-<spnOverride numeric="72400" spn="NEXTEL"/>
 <spnOverride numeric="72407" spn="CTBC"/>
 <spnOverride numeric="72408" spn="TIM"/>
 <spnOverride numeric="72415" spn="BRA SCTL"/>

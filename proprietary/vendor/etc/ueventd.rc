@@ -220,3 +220,17 @@
 
 #nfc
 #/dev/nxpnfc              0666   nfc        nfc
+
+# MDP - video format conversion for hardware decode
+# /dev/mtk_mdp is the userspace ioctl entry point (used by hwcomposer's
+# DpDriver/BliterNode for YUV->RGB blits during video composition).
+# Stock theloop ueventd was missing this line, leaving the node as
+# root:root 0600 -> hwcomposer (system:graphics) got EACCES on every
+# blit attempt -> MDP returned -26 -> BliterNode aborted -> SurfaceFlinger
+# crash on YouTube playback (the long-standing "green screen / soft
+# reboot" symptom). 0660 system:graphics matches the access pattern
+# of the consumer (graphics composer service) and matches sibling
+# nodes (mdp_sync, mml_pq).
+/dev/mtk_mdp              0660   system     graphics
+/dev/mdp_sync             0660   system     media
+/dev/mml_pq               0660   system     media

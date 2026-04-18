@@ -201,5 +201,11 @@ Only the three quirks included above are recognized at this point:
             <Limit name="measured-frame-rate-720x480" range="310-683" />
             <Limit name="measured-frame-rate-1280x720" range="119-263" />
         </MediaCodec>
+        <!-- Sec codec -->
+        <MediaCodec name="c2.sec.mpeg4.decoder" type="video/mp4v-es" update="true">
+            <Limit name="measured-frame-rate-176x144" range="405-891" />
+            <Limit name="measured-frame-rate-480x360" range="340-748" />
+            <Limit name="measured-frame-rate-1280x720" range="151-331" />
+        </MediaCodec>
     </Decoders>
 </MediaCodecs>

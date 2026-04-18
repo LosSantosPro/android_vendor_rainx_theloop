@@ -179,6 +179,9 @@
         <Compare>more</Compare>
         <MaxValue>1</MaxValue>
         <MinValue>0</MinValue>
+        <DefaultValue>1</DefaultValue>
+        <Prefix>cm_mgr_perf_enable^</Prefix>
+        <Valid>1</Valid>
     </CMD>
     <CMD name="PERF_RES_DRAM_CM_MGR_CAM_ENABLE" id="0x01010100">
         <Entry path="/sys/kernel/cm_mgr/dbg_cm_mgr"></Entry>
@@ -203,6 +206,14 @@
         <MinValue>0</MinValue>
         <DefaultValue>0</DefaultValue>
         <Prefix>cpu_power_ratio_up_x^4^</Prefix>
+    </CMD>
+    <CMD name="PERF_RES_POWERHAL_TOUCH_BOOST_ENABLE" id="0x03408500">
+	<Entry path="/proc/touch_boost/enable"></Entry>
+        <Compare>more</Compare>
+        <MaxValue>1</MaxValue>
+        <MinValue>0</MinValue>
+        <DefaultValue>0</DefaultValue>
+        <InitWrite>1</InitWrite>
     </CMD>
     <CMD name="PERF_RES_POWERHAL_TOUCH_BOOST_CLUSTER_0_OPP" id="0x03408800">
         <Entry path="/proc/touch_boost/boost_opp_cluster_0"></Entry>
